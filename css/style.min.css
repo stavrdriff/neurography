@@ -1,1 +1,438 @@
-@font-face{font-weight:900;font-family:"Inter";font-style:normal;font-display:swap;src:url("../fonts/Inter/Inter-Black.woff2") format("woff2")}@font-face{font-weight:900;font-family:"Inter";font-style:italic;font-display:swap;src:url("../fonts/Inter/Inter-BlackItalic.woff2") format("woff2")}@font-face{font-weight:800;font-family:"Inter";font-style:normal;font-display:swap;src:url("../fonts/Inter/Inter-ExtraBold.woff2") format("woff2")}@font-face{font-weight:800;font-family:"Inter";font-style:italic;font-display:swap;src:url("../fonts/Inter/Inter-ExtraBoldItalic.woff2") format("woff2")}@font-face{font-weight:700;font-family:"Inter";font-style:normal;font-display:swap;src:url("../fonts/Inter/Inter-Bold.woff2") format("woff2")}@font-face{font-weight:700;font-family:"Inter";font-style:italic;font-display:swap;src:url("../fonts/Inter/Inter-BoldItalic.woff2") format("woff2")}@font-face{font-weight:600;font-family:"Inter";font-style:normal;font-display:swap;src:url("../fonts/Inter/Inter-SemiBold.woff2") format("woff2")}@font-face{font-weight:600;font-family:"Inter";font-style:italic;font-display:swap;src:url("../fonts/Inter/Inter-SemiBoldItalic.woff2") format("woff2")}@font-face{font-weight:500;font-family:"Inter";font-style:normal;font-display:swap;src:url("../fonts/Inter/Inter-Medium.woff2") format("woff2")}@font-face{font-weight:500;font-family:"Inter";font-style:italic;font-display:swap;src:url("../fonts/Inter/Inter-MediumItalic.woff2") format("woff2")}@font-face{font-weight:400;font-family:"Inter";font-style:normal;font-display:swap;src:url("../fonts/Inter/Inter-Regular.woff2") format("woff2")}@font-face{font-weight:400;font-family:"Inter";font-style:italic;font-display:swap;src:url("../fonts/Inter/Inter-Italic.woff2") format("woff2")}@font-face{font-weight:300;font-family:"Inter";font-style:normal;font-display:swap;src:url("../fonts/Inter/Inter-LightBETA.woff2") format("woff2")}@font-face{font-weight:300;font-family:"Inter";font-style:italic;font-display:swap;src:url("../fonts/Inter/Inter-LightItalicBETA.woff2") format("woff2")}@font-face{font-weight:200;font-family:"Inter";font-style:normal;font-display:swap;src:url("../fonts/Inter/Inter-ExtraLightBETA.woff2") format("woff2")}@font-face{font-weight:200;font-family:"Inter";font-style:italic;font-display:swap;src:url("../fonts/Inter/Inter-ExtraLightItalicBETA.woff2") format("woff2")}@font-face{font-weight:100;font-family:"Inter";font-style:normal;font-display:swap;src:url("../fonts/Inter/Inter-ThinBETA.woff2") format("woff2")}@font-face{font-weight:100;font-family:"Inter";font-style:italic;font-display:swap;src:url("../fonts/Inter/Inter-ThinItalicBETA.woff2") format("woff2")}@font-face{font-weight:900;font-family:"Raleway";font-style:normal;font-display:swap;src:url("../fonts/Raleway/Raleway-Black.woff2") format("woff2")}@font-face{font-weight:900;font-family:"Raleway";font-style:italic;font-display:swap;src:url("../fonts/Raleway/Raleway-BlackItalic.woff2") format("woff2")}@font-face{font-weight:800;font-family:"Raleway";font-style:normal;font-display:swap;src:url("../fonts/Raleway/Raleway-ExtraBold.woff2") format("woff2")}@font-face{font-weight:800;font-family:"Raleway";font-style:italic;font-display:swap;src:url("../fonts/Raleway/Raleway-ExtraBoldItalic.woff2") format("woff2")}@font-face{font-weight:700;font-family:"Raleway";font-style:normal;font-display:swap;src:url("../fonts/Raleway/Raleway-Bold.woff2") format("woff2")}@font-face{font-weight:600;font-family:"Raleway";font-style:normal;font-display:swap;src:url("../fonts/Raleway/Raleway-SemiBold.woff2") format("woff2")}@font-face{font-weight:600;font-family:"Raleway";font-style:italic;font-display:swap;src:url("../fonts/Raleway/Raleway-SemiBoldItalic.woff2") format("woff2")}@font-face{font-weight:500;font-family:"Raleway";font-style:normal;font-display:swap;src:url("../fonts/Raleway/Raleway-Medium.woff2") format("woff2")}@font-face{font-weight:500;font-family:"Raleway";font-style:italic;font-display:swap;src:url("../fonts/Raleway/Raleway-MediumItalic.woff2") format("woff2")}@font-face{font-weight:400;font-family:"Raleway";font-style:normal;font-display:swap;src:url("../fonts/Raleway/Raleway-Regular.woff2") format("woff2")}@font-face{font-weight:400;font-family:"Raleway";font-style:italic;font-display:swap;src:url("../fonts/Raleway/Raleway-Italic.woff2") format("woff2")}@font-face{font-weight:300;font-family:"Raleway";font-style:normal;font-display:swap;src:url("../fonts/Raleway/Raleway-Light.woff2") format("woff2")}@font-face{font-weight:300;font-family:"Raleway";font-style:italic;font-display:swap;src:url("../fonts/Raleway/Raleway-LightItalic.woff2") format("woff2")}@font-face{font-weight:200;font-family:"Raleway";font-style:normal;font-display:swap;src:url("../fonts/Raleway/Raleway-ExtraLight.woff2") format("woff2")}@font-face{font-weight:200;font-family:"Raleway";font-style:italic;font-display:swap;src:url("../fonts/Raleway/Raleway-ExtraLightItalic.woff2") format("woff2")}@font-face{font-weight:100;font-family:"Raleway";font-style:normal;font-display:swap;src:url("../fonts/Raleway/Raleway-Thin.woff2") format("woff2")}:root{--rocket-black: #090909;--rocket-grey: #8D99AE;--rocket-light-pink: #F6EFEE;--rocket-pink: #EA91B1;--rocket-red: #EB5160;--rocket-font-size: 16px;--primary-font-family: "Inter" system-ui, sans-serif;--secondary-font-family: "Raleway", system-ui, sans-serif}/*# sourceMappingURL=style.min.css.map */
+@font-face {
+  font-weight: 900;
+  font-family: "Inter";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-Black.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 900;
+  font-family: "Inter";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-BlackItalic.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 800;
+  font-family: "Inter";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-ExtraBold.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 800;
+  font-family: "Inter";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-ExtraBoldItalic.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 700;
+  font-family: "Inter";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 700;
+  font-family: "Inter";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-BoldItalic.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 600;
+  font-family: "Inter";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-SemiBold.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 600;
+  font-family: "Inter";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-SemiBoldItalic.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 500;
+  font-family: "Inter";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 500;
+  font-family: "Inter";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-MediumItalic.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 400;
+  font-family: "Inter";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 400;
+  font-family: "Inter";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 300;
+  font-family: "Inter";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-LightBETA.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 300;
+  font-family: "Inter";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-LightItalicBETA.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 200;
+  font-family: "Inter";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-ExtraLightBETA.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 200;
+  font-family: "Inter";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-ExtraLightItalicBETA.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 100;
+  font-family: "Inter";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-ThinBETA.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 100;
+  font-family: "Inter";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Inter/Inter-ThinItalicBETA.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 900;
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Raleway/Raleway-Black.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 900;
+  font-family: "Raleway";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Raleway/Raleway-BlackItalic.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 800;
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Raleway/Raleway-ExtraBold.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 800;
+  font-family: "Raleway";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Raleway/Raleway-ExtraBoldItalic.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 700;
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Raleway/Raleway-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 600;
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Raleway/Raleway-SemiBold.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 600;
+  font-family: "Raleway";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Raleway/Raleway-SemiBoldItalic.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 500;
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Raleway/Raleway-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 500;
+  font-family: "Raleway";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Raleway/Raleway-MediumItalic.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 400;
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Raleway/Raleway-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 400;
+  font-family: "Raleway";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Raleway/Raleway-Italic.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 300;
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Raleway/Raleway-Light.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 300;
+  font-family: "Raleway";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Raleway/Raleway-LightItalic.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 200;
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Raleway/Raleway-ExtraLight.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 200;
+  font-family: "Raleway";
+  font-style: italic;
+  font-display: swap;
+  src: url("../fonts/Raleway/Raleway-ExtraLightItalic.woff2") format("woff2");
+}
+@font-face {
+  font-weight: 100;
+  font-family: "Raleway";
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/Raleway/Raleway-Thin.woff2") format("woff2");
+}
+:root {
+  --rocket-black: #090909;
+  --rocket-grey: #8D99AE;
+  --rocket-light-pink: #F6EFEE;
+  --rocket-pink: #EA91B1;
+  --rocket-red: #EB5160;
+  --rocket-font-size: 16px;
+  --primary-font-family: "Inter", system-ui, sans-serif;
+  --secondary-font-family: "Raleway", system-ui, sans-serif;
+  --body-background-color: var(--rocket-light-pink);
+  --primary-text-color: var(--rocket-black);
+  --rocket-button-color: var(--rocket-light-pink);
+  --rocket-button-hover-color: var(--rocket-light-pink);
+  --rocket-button-font-size: 1rem;
+  --rocket-button-font-weight: 600;
+  --rocket-button-line-height: 1.5;
+  --rocket-button-border-color: var(--rocket-pink);
+  --rocket-button-hover-border-color: var(--rocket-pink);
+  --rocket-button-background-color: var(--rocket-pink);
+  --rocket-button-hover-box-shadow: 4px 4px 4px 0px rgba(234, 145, 177, 0.25);
+  --rocket-button-border-radius: .5rem;
+  --rocket-button-padding: .5rem 1rem;
+  --rocket-container-padding: 0 .625rem;
+}
+@media (min-width: 460px) {
+  :root {
+    --rocket-container-padding: 0 1.25rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--rocket-font-size, 16px);
+}
+
+body {
+  font-size: var(--rocket-font-size, 16px);
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-color);
+  background-color: var(--body-background-color);
+  overflow-x: hidden;
+}
+
+picture,
+img {
+  display: block;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6,
+ul, ol {
+  margin: 0;
+  font-family: var(--secondary-font-family);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.33;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+h5, h6 {
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.is-index h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+.is-index h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+.is-index h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.33;
+}
+.is-index h4 {
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.header {
+  background: var(--rocket-pink);
+}
+.header__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.header__actions {
+  margin: 0 0 0 auto;
+}
+
+.burger {
+  padding: 0.5rem 0.25rem;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.burger span {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: var(--rocket-black);
+  border-radius: 3px;
+  align-self: flex-start;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.burger span:nth-child(2) {
+  align-self: flex-end;
+}
+.burger:focus span, .burger:hover span {
+  opacity: 0.65;
+  width: 80%;
+}
+
+.button {
+  display: inline-block;
+  padding: var(--rocket-button-padding);
+  font-size: var(--rocket-button-font-size);
+  font-weight: var(--rocket-button-font-weight);
+  line-height: var(--rocket-button-line-height);
+  color: var(--rocket-button-color);
+  border: 1px solid var(--rocket-button-border-color);
+  border-radius: var(--rocket-button-border-radius);
+  background: var(--rocket-button-background-color);
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media (min-width: 460px) {
+  .button {
+    --rocket-button-padding: .5rem 1.5rem;
+    --rocket-button-font-size: 1.25rem;
+    --rocket-button-line-height: 1.4;
+  }
+}
+.button:focus, .button:hover {
+  --rocket-button-border-color: var(--rocket-button-hover-border-color);
+  --rocket-button-color: var(--rocket-button-hover-color);
+  box-shadow: var(--rocket-button-hover-box-shadow);
+}
+
+.button--heading {
+  --rocket-button-padding: .5rem 1.5rem;
+  --rocket-button-font-size: 1.25rem;
+  --rocket-button-line-height: 1.4;
+}
+.button--light {
+  --rocket-button-color: var(--rocket-pink);
+  --rocket-button-background-color: var(--rocket-light-pink);
+  --rocket-button-hover-box-shadow: none;
+  --rocket-button-hover-border-color: var(--rocket-grey);
+  --rocket-button-hover-color: var(--rocket-grey);
+}
+
+.container {
+  padding: var(--rocket-container-padding);
+  max-width: calc(90rem + var(--rocket-container-padding) * 2);
+}/*# sourceMappingURL=style.min.css.map */

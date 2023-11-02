@@ -6,6 +6,117 @@
   --rocket-red: #EB5160;
 
   --rocket-font-size: 16px;
-  --primary-font-family: "Inter" system-ui, sans-serif;
-  --secondary-font-family: "Raleway", system-ui, sans-serif;
+  --primary-font-family: 'Inter', system-ui, sans-serif;
+  --secondary-font-family: 'Raleway', system-ui, sans-serif;
+
+  --body-background-color: var(--rocket-light-pink);
+  --primary-text-color: var(--rocket-black);
+
+  --rocket-button-color: var(--rocket-light-pink);
+  --rocket-button-hover-color: var(--rocket-light-pink);
+  --rocket-button-font-size: 1rem;
+  --rocket-button-font-weight: 600;
+  --rocket-button-line-height: 1.5;
+  --rocket-button-border-color: var(--rocket-pink);
+  --rocket-button-hover-border-color: var(--rocket-pink);
+  --rocket-button-background-color: var(--rocket-pink);
+  --rocket-button-hover-box-shadow: 4px 4px 4px 0px rgba(234, 145, 177, 0.25);
+  --rocket-button-border-radius: .5rem;
+  --rocket-button-padding: .5rem 1rem;
+  --rocket-container-padding: 0 .625rem;
+
+  @include media {
+    --rocket-container-padding: 0 1.25rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--rocket-font-size, 16px);
+}
+
+body {
+  font-size: var(--rocket-font-size, 16px);
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-color);
+  background-color: var(--body-background-color);
+  overflow-x: hidden;
+}
+
+picture,
+img {
+  display: block;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6,
+ul, ol {
+  margin: 0;
+  font-family: var(--secondary-font-family);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.25;  
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.33;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+h5, h6 {
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.is-index {
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.25;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.33;
+  }
+
+  h4 {
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.4;
+  }
 }

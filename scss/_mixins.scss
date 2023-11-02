@@ -27,7 +27,7 @@
     transition: $prop $duration $timing-function;
 }
 
-@mixin media($screen: 768) {
+@mixin media($screen: 460) {
     @media (min-width: #{$screen}px) {
         @content;
     }

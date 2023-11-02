@@ -1,0 +1,4 @@
+.container {
+  padding: var(--rocket-container-padding);
+  max-width: calc(90rem + var(--rocket-container-padding) * 2);
+}

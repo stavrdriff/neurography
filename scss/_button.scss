@@ -1,0 +1,43 @@
+%base-button {
+  display: inline-block;
+  padding: var(--rocket-button-padding);
+  font-size: var(--rocket-button-font-size);
+  font-weight: var(--rocket-button-font-weight);
+  line-height: var(--rocket-button-line-height);
+  color: var(--rocket-button-color);
+  border: 1px solid var(--rocket-button-border-color);
+  border-radius: var(--rocket-button-border-radius);
+  background: var(--rocket-button-background-color);
+  cursor: pointer;
+
+  @include media {
+    --rocket-button-padding: .5rem 1.5rem;
+    --rocket-button-font-size: 1.25rem;
+    --rocket-button-line-height: 1.4;
+  }
+  @include transition;
+  @include event {
+    --rocket-button-border-color: var(--rocket-button-hover-border-color);
+    --rocket-button-color: var(--rocket-button-hover-color);
+
+    box-shadow: var(--rocket-button-hover-box-shadow);
+  }
+}
+
+.button {
+  @extend %base-button;
+
+  &--heading {
+    --rocket-button-padding: .5rem 1.5rem;
+    --rocket-button-font-size: 1.25rem;
+    --rocket-button-line-height: 1.4;
+  }
+
+  &--light {
+    --rocket-button-color: var(--rocket-pink);
+    --rocket-button-background-color: var(--rocket-light-pink);
+    --rocket-button-hover-box-shadow: none;
+    --rocket-button-hover-border-color: var(--rocket-grey);
+    --rocket-button-hover-color: var(--rocket-grey);
+  }
+}
